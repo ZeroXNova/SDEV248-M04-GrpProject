@@ -3,7 +3,7 @@ extends CanvasLayer
 @onready var label: RichTextLabel = $Panel/RichTextLabel
 @onready var text_beep: AudioStreamPlayer2D = $AudioStreamPlayer2D
 
-var typing_speed = 20.0
+var typing_speed = 15.0
 var char_progress = 0.0
 signal typing_finished
 
@@ -20,7 +20,7 @@ Running through the now broken gate, you see the bodies. And the flames. Your ey
 
 Then you notice the faint squelch of something recently alive being chewed on. The chattering of very dry bones. The cackles of something relishing in the death and destruction it's caused.
 
-You look around and notice the mountain. It HAS been cloaked in shadow, all seeming to to stem from it's snowy, jagged peak.
+You look around and notice the mountain. It HAS been cloaked in shadow, all seeming to stem from it's snowy, jagged peak.
 
 Then you realize the sounds are getting closer...."""
 	label.visible_characters = 0.0
