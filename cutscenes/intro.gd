@@ -8,21 +8,21 @@ var char_progress = 0.0
 signal typing_finished
 
 func _ready():
-	label.text = """You've just returned home from delivering goods to a far-off village. While there, you heard tale of a dark shadow creeping down from the peak of Sawtooth Mountain.
+	label.text = """	You've just returned home from delivering goods to a far-off village. While there, you heard tale of a dark shadow creeping down from the peak of Sawtooth Mountain.
 
-At first, your weary eyes relish the sight of your village a few miles in the distance. Suddenly you realize that something looks.... off.
+	At first, your weary eyes relish the sight of your village a few miles in the distance. Suddenly you realize that something looks.... off.
 
-The homes and shops look a little different and they're silhouetted by a faint, orange glow. Then you see the smoke.
+	The homes and shops look a little different and they're silhouetted by a faint, orange glow. Then you see the smoke.
 
-You immediately break into a sprint, hoping you're wrong.
+	You immediately break into a sprint, hoping you're wrong.
 
-Running through the now broken gate, you see the bodies. And the flames. Your eyes fall on the door to your home, and you see a pool of blood originating from somehwere just out of sight. Your worst fears have been realized.
+	Running through the now broken gate, you see the bodies. And the flames. Your eyes fall on the door to your home, and you see a pool of blood originating from somehwere just out of sight. Your worst fears have been realized.
 
-Then you notice the faint squelch of something recently alive being chewed on. The chattering of very dry bones. The cackles of something relishing in the death and destruction it's caused.
+	Then you notice the faint squelch of something recently alive being chewed on. The chattering of very dry bones. The cackles of something relishing in the death and destruction it's caused.
 
-You look around and notice the mountain. It HAS been cloaked in shadow, all seeming to stem from it's snowy, jagged peak.
+	You look around and notice the mountain. It HAS been cloaked in shadow, all seeming to stem from it's snowy, jagged peak.
 
-Then you realize the sounds are getting closer...."""
+	Then you realize the sounds are getting closer...."""
 	label.visible_characters = 0.0
 	char_progress = 0.0
 
