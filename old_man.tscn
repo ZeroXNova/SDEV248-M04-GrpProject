@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://vso0g1nd8u3e"]
+
+[ext_resource type="Texture2D" uid="uid://cdxsro1bfyeht" path="res://assets/old_man.png" id="1_tjsre"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fs47u"]
+size = Vector2(100, 119)
+
+[node name="OldMan" type="CharacterBody2D" unique_id=750193079]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1333899776]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_tjsre")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1986766547]
+position = Vector2(-4, 0.5)
+shape = SubResource("RectangleShape2D_fs47u")

@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://bqk2a214hk75a"]
+
+[ext_resource type="Texture2D" uid="uid://dyws4tx7go85x" path="res://assets/skeleton.png" id="1_crlql"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_plk42"]
+size = Vector2(370.00018, 585.0001)
+
+[node name="Skeleton" type="CharacterBody2D" unique_id=848138049]
+scale = Vector2(0.2, 0.2)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=958391121]
+texture = ExtResource("1_crlql")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2008958867]
+position = Vector2(-1.966953e-05, 2.500009)
+scale = Vector2(0.9999994, 0.9999994)
+shape = SubResource("RectangleShape2D_plk42")
