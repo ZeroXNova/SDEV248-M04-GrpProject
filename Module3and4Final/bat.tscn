@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://chycafutrr0fb"]
+
+[ext_resource type="Texture2D" uid="uid://deijy3ath4ow5" path="res://bat.png" id="1_pb2o4"]
+[ext_resource type="Script" uid="uid://cb0vdju43b484" path="res://bat.gd" id="1_tofr1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pb2o4"]
+size = Vector2(596, 272)
+
+[node name="Bat" type="CharacterBody2D"]
+scale = Vector2(0.2, 0.2)
+script = ExtResource("1_tofr1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_pb2o4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 0)
+shape = SubResource("RectangleShape2D_pb2o4")

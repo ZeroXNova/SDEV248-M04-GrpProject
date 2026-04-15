@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://gtg4cnnvnjsd"
+path="res://.godot/imported/text beep.wav-8955d2de37fc35187fc72a484c1472e2.sample"
+
+[deps]
+
+source_file="res://text beep.wav"
+dest_files=["res://.godot/imported/text beep.wav-8955d2de37fc35187fc72a484c1472e2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

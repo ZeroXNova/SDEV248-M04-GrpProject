@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://vso0g1nd8u3e"]
+
+[ext_resource type="Script" uid="uid://bv687xoh01n7x" path="res://old_man.gd" id="1_fs47u"]
+[ext_resource type="Texture2D" uid="uid://bsv0dy16fwf5t" path="res://old_man.png" id="1_tjsre"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fs47u"]
+size = Vector2(108, 126)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gagtg"]
+size = Vector2(277, 256.5)
+
+[node name="OldMan" type="CharacterBody2D" unique_id=750193079]
+position = Vector2(0, -1)
+script = ExtResource("1_fs47u")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1333899776]
+position = Vector2(-2.9999998, 2.9999998)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_tjsre")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1986766547]
+position = Vector2(-7, 5)
+shape = SubResource("RectangleShape2D_fs47u")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=516997635]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=503592734]
+position = Vector2(-5.5, 71.75)
+shape = SubResource("RectangleShape2D_gagtg")
+debug_color = Color(0.8594014, 0.30148166, 0.527872, 0.41960785)
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

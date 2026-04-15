@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bngabymh41khv"]
+
+[ext_resource type="Texture2D" uid="uid://dw3cm8k8gqjcq" path="res://CaveEntrance.png" id="1_ndeha"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yi41t"]
+size = Vector2(248, 200)
+
+[node name="Area2D" type="Area2D" unique_id=190330224]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1333882154]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_ndeha")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2130744258]
+position = Vector2(22, 143)
+shape = SubResource("RectangleShape2D_yi41t")
